@@ -1,0 +1,142 @@
+
+
+a{
+text-decoration: none;
+}
+
+
+/* whats button*/
+.zip{
+position: fixed;
+
+right: 60px;
+bottom: 50px;
+
+}
+
+.zip img:hover{
+border: #00ff4c solid 5px;
+border-radius: 10px;
+}
+
+.zip a{
+color: #00ff4c;
+text-decoration: none;
+}
+/*cabo aqui */
+
+
+/* Cardápio */
+.cardapio {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card {
+    background: white;
+    color: black;
+    width: 240px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 180px;
+    border-radius: 8px;
+}
+.preco{
+color: #ff0e0e;
+}
+
+/* fazer o botão de login ficar no outro canto da pagina */
+#esfirras{
+   
+justify-content: flex-end;
+border: #ff0e0e solid 4px;
+
+display: flex;
+align-content: center;
+}
+
+#refri{
+justify-content: flex-end;
+border: #ff0e0e solid 4px;
+
+display: flex;
+
+}
+
+#refri, #esfirras, #promo {
+    border: #ff0e0e solid 2px;
+    padding: 5px 10px;
+}
+
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* espaço entre elementos */
+}
+
+
+
+
+
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 599px) {
+.wha{
+margin-left: 20px;
+width: 60px;
+}
+.zip a p{
+align-content: center;
+
+}
+
+
+}
+
+
+
+
+
+
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+
+
+    
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+@media only screen and (max-width: 1200px) and (min-witdth: 900px) {}

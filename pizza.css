@@ -1,0 +1,165 @@
+/* Geral */
+body {
+    background: #3e2f05;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+h1{
+margin-bottom: 100px;
+}
+
+/* Cabeçalho */
+.header {
+    display: flex;
+    align-items: flex;
+    padding: 20px;
+    background: #1a1403;
+    border-bottom: 3px solid #d4a017;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 999;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 20px;
+}
+
+
+
+.titulo {
+    margin: 0;
+    font-size: 22px;
+    color: #f8d47c;
+}
+
+
+
+.menu .btn {
+    color: #f8d47c;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: 0.3s;
+ 
+}
+
+.menu .btn:hover {
+    background: #d4a017;
+    color: #000;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* espaço entre elementos */
+}
+
+
+
+/* cabeçalho acabo aqui*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rodape do site*/
+.rodape{
+    margin-top: 1000px;
+border: #ff0000 solid 4px;
+background-color: #ffffff;
+height: 700px;
+display: flex;
+width: 100%;
+flex-direction: column;
+
+}
+
+
+.rodape p{
+color: black;
+ font-size: 20px;
+ 
+}
+/* cabo aqui*/
+
+
+.horarios{
+margin-right: 160px;
+}
+
+
+
+
+
+.cardapio a{
+text-decoration: none;
+color: #000;
+}
+
+
+
+
+/*.login1{
+    text-decoration: none;
+    color: rgb(255, 146, 4);
+    font-size: 20px;
+    border: 2px solid black;
+   width: 50px;
+   height: 20px;
+    padding: 5px 10px; /* opcional 
+}*/
+
+
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 599px) {
+.wha{
+margin-left: 20px;
+width: 60px;
+}
+.zip a p{
+align-content: center;
+
+}
+
+
+}
+
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+
+
+    
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+@media only screen and (max-width: 1200px) and (min-witdth: 900px) {}
